@@ -50,3 +50,12 @@ The C programming language stands as a testament to the power of simplicity and 
 
 Whether you are a beginner looking to learn programming or an experienced developer seeking to deepen your understanding of system-level programming, C offers a rich and rewarding journey into the heart of computer science.
 
+
+<div style="text-align: center;">
+    <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Prev
+    </button>
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Gcc/Gcc.md';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Next
+    </button>
+</div>

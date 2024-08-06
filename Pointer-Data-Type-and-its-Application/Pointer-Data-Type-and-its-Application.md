@@ -205,3 +205,14 @@ The address of temp is 0x7fff4ffdbaa8 and content is 1342028464
 The Second item 1342028468
 The value of temp1 is 1342028464
 ```
+
+
+
+<div style="text-align: center;">
+    <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Prev
+    </button>
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Lists-and-Trees/Lists-and-Trees.md';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Next
+    </button>
+</div>
