@@ -55,7 +55,7 @@ Whether you are a beginner looking to learn programming or an experienced develo
     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Prev
     </button>
-     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Gcc/Gcc.md';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Gcc/Gcc';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Next
     </button>
 </div>

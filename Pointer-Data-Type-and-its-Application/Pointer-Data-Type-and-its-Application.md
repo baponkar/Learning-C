@@ -212,7 +212,7 @@ The value of temp1 is 1342028464
     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Prev
     </button>
-     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Lists-and-Trees/Lists-and-Trees.md';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Lists-and-Trees/Lists-and-Trees';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Next
     </button>
 </div>
