@@ -1,3 +1,5 @@
+[![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
+
 ### The C Programming Language: A Foundation of Modern Computing
 
 The C programming language, developed in the early 1970s by Dennis Ritchie at Bell Labs, is a cornerstone of modern computing. Known for its efficiency, performance, and versatility, C has influenced many subsequent programming languages and continues to be widely used in various domains. This chapter explores the history, features, and enduring significance of C in the world of programming.
