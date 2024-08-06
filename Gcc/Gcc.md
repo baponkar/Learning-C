@@ -100,3 +100,12 @@ arm-none-eabi-gcc -o output_file source_file.c
 #### Conclusion
 
 GCC is a vital tool for developers working across multiple platforms and languages. Its robust feature set and cross-platform capabilities make it indispensable for modern software development. Whether you are working on Linux, macOS, or Windows, installing GCC is straightforward and empowers you with a powerful compiler for building efficient and portable applications. By mastering GCC and understanding how to set up cross-compilers, you can enhance your development workflow and target a wide range of hardware and software environments.
+
+<div style="text-align: center;">
+    <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Introduction';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Prev
+    </button>
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Hello-World/Hello-World';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+       Next
+    </button>
+</div>
