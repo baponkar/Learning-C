@@ -1,5 +1,7 @@
 # Hello World programe
 
+![Gif](./Video/screen_record_of_hello.gif)
+
 The simple and first programe it will print `Hello World!` . The file save with `hello_world.c` .
 
 ```(c)

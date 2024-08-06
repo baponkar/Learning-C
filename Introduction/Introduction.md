@@ -41,6 +41,9 @@ Learning C provides a solid foundation for understanding more complex programmin
 
 While newer languages continue to emerge, C's importance is unlikely to diminish. Its combination of efficiency, portability, and power ensures its continued use in critical applications and system-level programming. The ongoing development of the C standard, with updates like C11 and C18, demonstrates the language's adaptability and enduring relevance.
 
+#### Application
+We can build GUI app, Operating system kernal, Scientific Computation.
+
 #### Conclusion
 
 The C programming language stands as a testament to the power of simplicity and efficiency in software development. Its profound impact on computing, from operating systems to embedded systems, highlights its versatility and enduring value. As a foundational language, C continues to be an essential tool for programmers and a cornerstone of modern computing.

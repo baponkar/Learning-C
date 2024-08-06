@@ -1,6 +1,9 @@
 # Learning Programming in C
 
-![Cover Image](./image/infix_to_postfix_vstudio_pic.png)
+
+
+![Cover Image](./image/c.png)
+
 
 C is a fast, old and supported for low level programming language. 
 
