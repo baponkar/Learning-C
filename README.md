@@ -16,10 +16,10 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 
 ### Chapters 
 
-* [Introduction](./Introduction/Introduction.md)
-* [GCC](./Gcc/Gcc.md)
-* [Hello World](./Hello-World/Hello-World.md)
-* [Numeric Constants and Variables]()
+* [Introduction](./Introduction/Introduction)
+* [GCC](./Gcc/Gcc)
+* [Hello World](./Hello-World/Hello-World)
+* [Numeric Constants and Variables](./Numeric-Constants-and-Variables/Numeric-Constants-and-Variables)
 * [Arithmetic Expression]()
 * [Input and Output]()
 * [Conditional Statements]()

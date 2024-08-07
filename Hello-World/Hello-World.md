@@ -4,7 +4,8 @@
 
 ![Gif](./Video/screen_record_of_hello.gif)
 
-The simple and first programe it will print `Hello World!` . The file save with `hello_world.c` .
+The simple and first programe it will print `Hello World!` . The file save with `hello.c` .
+[Download Code](./code/hello.c)
 
 ```(c)
 #include<stdio.h>
@@ -16,7 +17,7 @@ int main(){
 }
 ```
 
-Generating Binary file by gcc by `gcc hello_world.c -o hello_world.bin` which generate a new  binary file `hello_world.bin` and run the binary file by `./hello_world.bin`
+Generating Binary file by gcc by `gcc hello.c -o hello_world.bin` which generate a new  binary file `hello_world.bin` and run the binary file by `./hello.bin`
 
 
 ```(c)

@@ -121,91 +121,54 @@ Pointers are an essential feature of the C programming language, providing the a
 
 ![Pointer Data Type Image](./image/pointer_data.png)
 
+[Download Code](./code/pointer_data.c)
 
-```(c)
+```c
+/*
+* Details : This Program explain the pointer data type
+* Build Date : 07/08/2024
+* Developer : Bapon Kar
+*/
 
 #include<stdio.h>
 
 
 int main(){
 
-	char c = 'm';
-	printf("The address of m is %p and its value is %c\n", &c, c);
-	//The address of m is 0x7ffecf06e1ff and its value is m
+    int a = 14; //This process assign a address for integer a and store a integer value 14
 
-	//-----------------------------------------------------------------------------------
-	
-	int a = 32; //The compiler automatically assign a free address for integer variable a
-		    //and set its value 32
-	printf("The address of integer variable a is %p and its value is %d\n", &a, a);
-	//The address of integer variable a is 0x7ffecf06e200 and its value is 32
-	//The address is changing in everytime
-	
-	int b = &a;
-	printf("The address of integer variable b is %p and its value is %p\n", &b, b);
-	//The address of integer variable b is 0x7ffecf06e204 and its value is 0xcf06e200
+    printf("The address of a is %p and value is %d\n", &a, a); //& represent address opeartor
 
-	
-	// int a = 32 ==> int *x ==> int y
-	// a = 32
-	// *x = &a assigning pointer value of address a
-	// y = *x assigining the value of a into y 
-	
-	
-	//Introducing Pointer Data Type
-	int *x;
-	
-	x = &a;	//Initially The compiler assign a free address to x
-		//Here The content of x is set to 32 which is content of a. But there
-		//is no connection x to a.
-		//During integer variable x initialization start to set equal to content of b
-		// but b content is address of a so then try to find the content of a
-		//The content of a is a pure integer value 32
-		//So ultimately set the value of x is 32. 
-	
-	printf("The address of x is %p and the value is %p\n", &x, x);
-	
-	int y = *x;
-	printf("The address of y is %p and the value is %d\n", &y, y);
+    //Creating a pointer
+    int * ptr =(int *) &a; //The pointer ptr hold the location of integer a
+    printf("The address of ptr is %p and the value of ptr is %p\n", &ptr, ptr); //
 
-	//------------------------------------------------------------------------------------
+    //Creating a pointer of a pointer
+    int *ptr_of_ptr = (int *) &ptr;
+    printf("The address of ptr_of_ptr is %p and its value is %p\n", &ptr_of_ptr, ptr_of_ptr);
 
-	// Pointers And Arrays
-	int arr[5] = {8, 6, 5, 9, 11};
-	
-	printf("The address of first item of the array is %p and the content is %d\n", &arr[0],arr[0]);
-	//The address of first item of the array is 0x7ffe179fb2e0 and the content is 8
+    //Creating another integer z with ptr
+    int z = (int) *ptr;
+    printf("The address of z is %p and the value is %d\n", &z, z);
 
-	int *temp = arr;
-	printf("The address of temp is %p and content is %d\n", &temp, temp); 
-	//The address of temp is 0x7fffd225b2a8 and content is -769281360b	
+    //Creating another integer y with ptr_of_ptr
+    int y = (int) * ptr_of_ptr;
+    printf("The address of y is %p and the value is %p\n", &y, y);
 
 
-	
-	*temp = &arr[0];
-	printf("The address of temp is %p and content is %d\n", &temp, temp);
-	//The address of temp is 0x7fffd225b2a8 and content is -769281360b
+    return 0;
+}
 
-	printf("The Second item %d\n", temp+1);
-
-	int temp1 = *temp;
-	printf("The value of temp1 is %d\n", temp1);
-}	
 ```
 
 # Output :
-```(bash)
-user@:Dell /mnt/b/Programms/C/build$ ./pointer_data_type.bin
-The address of m is 0x7fff4ffdba8f and its value is m
-The address of integer variable a is 0x7fff4ffdba90 and its value is 32
-The address of integer variable b is 0x7fff4ffdba94 and its value is 0x4ffdba90
-The address of x is 0x7fff4ffdbaa0 and the value is 0x7fff4ffdba90
-The address of y is 0x7fff4ffdba98 and the value is 32
-The address of first item of the array is 0x7fff4ffdbab0 and the content is 8
-The address of temp is 0x7fff4ffdbaa8 and content is 1342028464
-The address of temp is 0x7fff4ffdbaa8 and content is 1342028464
-The Second item 1342028468
-The value of temp1 is 1342028464
+```bash
+user@com$ ./pointer_data.bin
+The address of a is 0x7ffcaa4d0ccc and value is 14
+The address of ptr is 0x7ffcaa4d0cd8 and the value of ptr is 0x7ffcaa4d0ccc
+The address of ptr_of_ptr is 0x7ffcaa4d0ce0 and its value is 0x7ffcaa4d0cd8
+The address of z is 0x7ffcaa4d0cd0 and the value is 14
+The address of y is 0x7ffcaa4d0cd4 and the value is 0xaa4d0ccc
 ```
 
 
