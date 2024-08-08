@@ -20,7 +20,7 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 * [GCC](./Gcc/Gcc)
 * [Hello World](./Hello-World/Hello-World)
 * [Numeric Constants and Variables](./Numeric-Constants-and-Variables/Numeric-Constants-and-Variables)
-* [Arithmetic Expression]()
+* [Arithmetic Expression](./Arithmetic-Expression/Arithmetic-Expression)
 * [Input and Output]()
 * [Conditional Statements]()
 * [Loops]()
