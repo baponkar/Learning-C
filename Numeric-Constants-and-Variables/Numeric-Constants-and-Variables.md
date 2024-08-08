@@ -8,7 +8,7 @@
 A quantity which may vary during program execution is called variable. Each Variable stres in different memory location.There are multiple types of variable present in C. Look into the table.
 
 
-| S/L | Assign                   | Printing | Maximum Size (32-bit / 64-bit)            |
+| S/L | Assign                   | Printing | Maximum Size (32-bit / 64-bit)           |
 |-----|--------------------------|----------|------------------------------------------|
 | 1   | int                      | %d       | 2,147,483,647 / 2,147,483,647            |
 | 2   | unsigned int             | %u       | 4,294,967,295 / 4,294,967,295            |
