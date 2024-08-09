@@ -65,7 +65,7 @@ function checkAnswer() {
     if (answer === "answer2") {
         resultText = "Correct!";
     } else {
-        resultText = "Incorrect. The correct answer is printf("Humanity is above all");";
+        resultText = "Incorrect. The correct answer is printf(\"Humanity is above all\");";
     }
     
     document.getElementById("result").innerText = resultText;
