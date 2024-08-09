@@ -1,7 +1,7 @@
 
 [![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
 
-# Input and Output
+# 7. Input and Output
 
 
 Please Wait....

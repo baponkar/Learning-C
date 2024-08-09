@@ -1,7 +1,7 @@
 
 [![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
 
-# Comment in C
+# 5.Comment in C
 
 The comment is using to understand the code. which is ignore by compiler.In see we can add single line comment by double slash `//` and we can include multi line comment by `/* */` . We can put comment in anywhere of the code.See the below code to understand the details.
 

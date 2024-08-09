@@ -1,5 +1,7 @@
 [![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
 
+# 2. GCC Compiler
+
 ### An Overview of GCC and Cross-Platform Installation Guide
 
 ![GCC Logo](./image/gcc-logo.png)
