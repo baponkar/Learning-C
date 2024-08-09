@@ -27,7 +27,20 @@ Decrement operator -- decrease the value of a integer by one. Similar Increment 
 
 - Post Decrement  : If we make only a-- will decrease the value of a by one. If we use `b = a--` , here first set the value of b with a then decrease the value of a by one. Example suppose the value of a = 5 and after `b = a--` will make b = 5 and a = 4(5-1).
 
-We can write `a = a + 5` with `b += 5` similarly `a = a - 5` with `b -= 5`
+# Assignment :
+We can write following arithmetic expression in short by following way.
+We can write `a = a + 5` with `b += 5` similarly `a = a - 5` with `b -= 5`.
+`a \= 3` means `a = a \3 `
+`a *= 6`means `a = a * 6`.
+`a %= 2` means `a = a % 2`.
+
+
+## Arithmetic expression
+ suppose we want a complex mathmatical expression
+
+ $\frac{a + b}{c + d}$ in C by `(a + b) / (c + d)`.
+
+ $ax^2 + bx + c$  by `a*x*x + b*x + c`
 
 [Download Code](./code/arithmatic_operation.c)
 
@@ -137,6 +150,31 @@ int main(){
 	printf("a = %d\n", a); //set the value of a = -10 without increasing 10 from its previous value
 
 
+	//Asigement
+	//Setting previous value
+	a = 5;
+	b = 6;
+	c = 2;
+	res1 = 0;
+	//printing variables
+	printf("a = %d, b= %d, c=%d\n", a,b,c);	 //Output a=5, b=6, c=2
+
+	a += 5; //short form of a = a + 5
+	printf("a = %d\n", a); //Output a = 10
+
+	a -= 5; //short form of a = a - 5
+	printf("a = %d\n", a); //Output a = 5
+
+	a *= 5; //short form of a = a * 5
+	printf("a = %d\n", a); //Output a = 25
+
+	a /= 5; //short form of a = a / 5
+	printf("a = %d\n", a); //Output a = 5
+
+	a %= 5; //short form of a = a % 5
+	printf("a = %d\n", a); // Output a = 0
+
+
 
 	return 0;
 
@@ -170,11 +208,17 @@ b = 5
 c = 4, b = 4
 a = -2
 a = -10
+a = 5, b= 6, c=2
+a = 10
+a = 5
+a = 25
+a = 5
+a = 0
 ```
 
 
 <div style="text-align: center;">
-    <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C//Numeric-Constants-and-Variables/Numeric-Constants-and-Variables';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+    <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Comments/Comments';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Prev
     </button>
      <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Input-and-Output/Input-and-Output';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">

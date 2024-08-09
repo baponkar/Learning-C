@@ -101,6 +101,31 @@ int main(){
 	printf("a = %d\n", a); //set the value of a = -10 without increasing 10 from its previous value
 
 
+	//Asigement
+	//Setting previous value
+	a = 5;
+	b = 6;
+	c = 2;
+	res1 = 0;
+	//printing variables
+	printf("a = %d, b= %d, c=%d\n", a,b,c);	 //Output a=5, b=6, c=2
+
+	a += 5; //short form of a = a + 5
+	printf("a = %d\n", a); //Output a = 10
+
+	a -= 5; //short form of a = a - 5
+	printf("a = %d\n", a); //Output a = 5
+
+	a *= 5; //short form of a = a * 5
+	printf("a = %d\n", a); //Output a = 25
+
+	a /= 5; //short form of a = a / 5
+	printf("a = %d\n", a); //Output a = 5
+
+	a %= 5; //short form of a = a % 5
+	printf("a = %d\n", a); // Output a = 0
+
+
 
 	return 0;
 

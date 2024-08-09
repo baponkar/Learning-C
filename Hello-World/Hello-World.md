@@ -16,6 +16,8 @@ int main(){
     return 0;
 }
 ```
+Here `#include<stdio.h>` is standard input output header file for printing in the terminal as output.
+In C each line is ended with semicolon `;`.Here main() function return 0 which means the programe executed successfully. The main() is enclosed with `{` and `}`.
 
 Generating Binary file by gcc by `gcc hello.c -o hello_world.bin` which generate a new  binary file `hello_world.bin` and run the binary file by `./hello.bin`
 

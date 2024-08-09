@@ -129,7 +129,7 @@ The Value of PI is 3.141593
     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Hello-World/Hello-World';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Prev
     </button>
-     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Arithmetic-Expression/Arithmetic-Expression';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Comments/Comments';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Next
     </button>
 </div>

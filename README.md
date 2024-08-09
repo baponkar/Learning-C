@@ -8,8 +8,7 @@
 
 ![Cover Image](./image/c.png)
 
-
-C is a fast, old and supported for low level programming language. 
+Still C is  a relevant programming language in computer science. All Operating system, application software and many scientific computational program is written in C. C is fast and low level supporting language so it is popular among the developer.In this repository I have tried to cover all necessary things in details .
 
 Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online-compiler/)
 
@@ -20,6 +19,7 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 * [GCC](./Gcc/Gcc)
 * [Hello World](./Hello-World/Hello-World)
 * [Numeric Constants and Variables](./Numeric-Constants-and-Variables/Numeric-Constants-and-Variables)
+* [Comments]()
 * [Arithmetic Expression](./Arithmetic-Expression/Arithmetic-Expression)
 * [Input and Output]()
 * [Conditional Statements]()
