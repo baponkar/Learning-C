@@ -154,3 +154,10 @@ The Value of PI is 3.141593
        Next
     </button>
 </div>
+
+
+<hr>
+<div style="text-align: center;">
+    © 2024 Bapon Kar. All rights reserved.
+</div>
+<hr>

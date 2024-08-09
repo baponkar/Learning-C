@@ -63,3 +63,10 @@ Whether you are a beginner looking to learn programming or an experienced develo
        Next
     </button>
 </div>
+
+
+<hr>
+<div style="text-align: center;">
+    © 2024 Bapon Kar. All rights reserved.
+</div>
+<hr>

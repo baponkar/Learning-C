@@ -219,6 +219,12 @@ a = 5
 a = 0
 ```
 
+* How do you express this equation $\frac{a^2 + b^2}{c + d} - \frac{4}{5}$ ?
+
+
+
+
+
 
 <div style="text-align: center;">
     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Comments/Comments';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
@@ -228,3 +234,17 @@ a = 0
        Next
     </button>
 </div>
+
+
+
+
+
+
+
+
+
+<hr>
+<div style="text-align: center;">
+    © 2024 Bapon Kar. All rights reserved.
+</div>
+<hr>

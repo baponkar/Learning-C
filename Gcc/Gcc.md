@@ -114,3 +114,10 @@ GCC is a vital tool for developers working across multiple platforms and languag
        Next
     </button>
 </div>
+
+
+<hr>
+<div style="text-align: center;">
+    © 2024 Bapon Kar. All rights reserved.
+</div>
+<hr>

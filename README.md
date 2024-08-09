@@ -51,6 +51,13 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 </div>
 
 
+<hr>
+<div style="text-align: center;">
+    © 2024 Bapon Kar. All rights reserved.
+</div>
+<hr>
+
+
 
 <!--input type="text" name="name" />
 
