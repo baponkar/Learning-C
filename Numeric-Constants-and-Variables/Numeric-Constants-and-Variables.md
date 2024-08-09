@@ -8,26 +8,33 @@
 A quantity which may vary during program execution is called variable. Each Variable stres in different memory location.There are multiple types of variable present in C. Look into the table.
 
 
-| S/L | Assign                   | Printing | Maximum Size (32-bit / 64-bit)           |
-|-----|--------------------------|----------|------------------------------------------|
-| 1   | int                      | %d       | 2,147,483,647 / 2,147,483,647            |
-| 2   | unsigned int             | %u       | 4,294,967,295 / 4,294,967,295            |
-| 3   | long int                 | %ld      | 2,147,483,647 / 9,223,372,036,854,775,807|
-| 4   | unsigned long int        | %lu      | 4,294,967,295 / 18,446,744,073,709,551,615|
-| 5   | long long int            | %lld     | 9,223,372,036,854,775,807 / 9,223,372,036,854,775,807 |
+| S/L | Assign                   | Printing | Maximum Size (32-bit / 64-bit)                          |
+|-----|--------------------------|----------|---------------------------------------------------------|
+| 1   | int                      | %d       | 2,147,483,647 / 2,147,483,647                           |
+| 2   | unsigned int             | %u       | 4,294,967,295 / 4,294,967,295                           |
+| 3   | long int                 | %ld      | 2,147,483,647 / 9,223,372,036,854,775,807               |
+| 4   | unsigned long int        | %lu      | 4,294,967,295 / 18,446,744,073,709,551,615              |
+| 5   | long long int            | %lld     | 9,223,372,036,854,775,807 / 9,223,372,036,854,775,807   |
 | 6   | unsigned long long int   | %llu     | 18,446,744,073,709,551,615 / 18,446,744,073,709,551,615 |
-| 7   | float                    | %f       | 3.4E+38 / 3.4E+38                        |
-| 8   | short                    | %hd      | 32,767 / 32,767                          |
-| 9   | double                   | %lf      | 1.7E+308 / 1.7E+308                      |
-| 10  | long double              | %Lf      | 1.2E+4932 / 1.2E+4932                    |
-| 11  | decimal integer          | %d       | 2,147,483,647 / 2,147,483,647            |
-| 12  | octal integer            | %o       | 4,294,967,295 / 4,294,967,295            |
-| 13  | hexadecimal integer      | %x       | 4,294,967,295 / 4,294,967,295            |
+| 7   | float                    | %f       | 3.4E+38 / 3.4E+38                                       |
+| 8   | short                    | %hd      | 32,767 / 32,767                                         |
+| 9   | double                   | %lf      | 1.7E+308 / 1.7E+308                                     |
+| 10  | long double              | %Lf      | 1.2E+4932 / 1.2E+4932                                   |
+| 11  | decimal integer          | %d       | 2,147,483,647 / 2,147,483,647                           |
+| 12  | octal integer            | %o       | 4,294,967,295 / 4,294,967,295                           |
+| 13  | hexadecimal integer      | %x       | 4,294,967,295 / 4,294,967,295                           |
+| 14  | Character                | %c       |                                                         |
+| 15  | String                   | %s       |                                                         |
 
 
 See the below code where I have assign different type variable and then print the value.
 
+* `\n` include create a new line in standard output.
+
 [Downl.oad Code](./code/different_types_variables.c)
+
+
+
 ```c
 /* In this programe we just declare a variable assign the value
 *  Then print the value of corresponding variable content value.
@@ -79,6 +86,17 @@ int main(){
     int hexVar = 0x2A; // Hexadecimal variable (0x indicates hex)
     printf("Hexadecimal: %x (decimal: %d)\n", hexVar, hexVar); // Printing the hexadecimal variable and corresponding decimal number
 
+    //-------------------
+    //Character variable assigne its value by single quote ''
+    char my_char = 'a';
+    printf("The value of my_char = %c\n", my_char); //Output : The value of my_char =  'a'
+
+    //String
+    //String is array of multiple character
+    //String variable assign by double quote ""
+    my_string[] = "abra ca dabra";
+    printf("The value of my_string = %s\n", my_string); //The value of my_string = abra ca dabra
+
 }
 ```
 
@@ -96,6 +114,8 @@ The value of double_val is 5678900074.567908
 The value of long_double_val is 5678900074.567908
 Octal: 52 (decimal: 42)
 Hexadecimal: 2a (decimal: 42)
+The value of my_char = a
+The value of my_string = abra ca dabra
 ```
 
 * # Numeric Constant
