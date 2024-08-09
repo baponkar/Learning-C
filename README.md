@@ -1,5 +1,6 @@
 
-[![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
+[![Home Static Badge](https://img.shields.io/badge/%F0%9F%8F%A0-Home-maker?style=plastic&labelColor=grey&color=black)
+](https://baponkar.github.io/Learning-C)
 
 
 # Learning Programming in C
@@ -50,9 +51,8 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 </div>
 
 
-# Input
-Please enter your name:
-<input type="text" name="name" />
+
+<!--input type="text" name="name" />
 
 
 Do you agree to the terms?
@@ -109,5 +109,5 @@ function checkAnswer() {
     
     document.getElementById("result").innerText = resultText;
 }
-</script>
+</script-->
 

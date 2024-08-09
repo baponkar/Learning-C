@@ -1,5 +1,6 @@
 
-[![Static Badge](https://img.shields.io/badge/Home-maker?labelColor=grey&color=grey)](https://baponkar.github.io/Learning-C)
+[![Home Static Badge](https://img.shields.io/badge/%F0%9F%8F%A0-Home-maker?style=plastic&labelColor=grey&color=black)
+](https://baponkar.github.io/Learning-C)
 
 # 7. Input and Output
 
