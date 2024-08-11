@@ -17,7 +17,7 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 ### Chapters 
 
 1. [Introduction](./Introduction/Introduction)
-2. [GCC](./Gcc/Gcc)
+2. [Compiler](./Gcc/Gcc)
 3. [Hello World](./Hello-World/Hello-World)
 4. [Numeric Constants and Variables](./Numeric-Constants-and-Variables/Numeric-Constants-and-Variables)
 5. [Comments](./Comments/Comments)
