@@ -1,3 +1,32 @@
+<style>
+  .typing-container {
+    width: 100%;
+    overflow: hidden; /* Ensures the text doesn't wrap */
+    border-right: 0.15em solid black; /* The cursor effect */
+    white-space: nowrap; /* Prevents text from wrapping */
+    margin: 0 auto; /* Center the container */
+    font-family: monospace; /* Typewriter-like font */
+    font-size: 24px;
+  }
+
+  .typing-text {
+    display: inline-block;
+    animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+</style>
 
 [![Home Static Badge](https://img.shields.io/badge/%F0%9F%8F%A0-Home-maker?style=plastic&labelColor=grey&color=black)
 ](https://baponkar.github.io/Learning-C)
@@ -5,7 +34,9 @@
 
 # Learning Programming in C
 
-
+<div class="typing-container">
+  <p class="typing-text">The article is under progress...</p>
+</div>
 
 ![Cover Image](./image/c.png)
 
