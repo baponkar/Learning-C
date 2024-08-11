@@ -38,7 +38,7 @@ Online C Compiler [programiz.com](https://www.programiz.com/c-programming/online
 20. [Files in C](./Files-in-C/Files-in-C)
 21. [Miscellaneous Features of C](./Miscellaneous-Features-of-C/Miscellaneous-Features-of-C)
 
-#### Source [code](https://baponkar.github.io/Learning-C/src/) of some C Programs.
+#### Source [code](https://github.com/baponkar/Learning-C/tree/main/src) of some C Programs.
 
 
 
