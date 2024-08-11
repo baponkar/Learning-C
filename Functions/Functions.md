@@ -6,6 +6,7 @@
 # 12. Functions 
 
 * Write a function whichh return addition of two integer
+
 ```c
 #include<stdio.h>
 
