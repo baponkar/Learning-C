@@ -257,6 +257,58 @@ This will write "Hello, File!" to a file named `output.txt`.
 
 These are some of the basic and most common ways to print output in C. The `printf` function is very powerful and supports many more formatting options for various data types.
 
+We can print character by putchar() as well as printf function.
+
+```c
+ 1 #include<stdio.h>
+  2
+  3 int main(){
+  4
+  5         char c = 'H';
+  6         putchar(c); //printing character
+  7         return 0;
+  8 }
+  ```
+
+  We can print string by putchar() function by using **for** and **while** loop.
+
+  ```c
+   1 #include<stdio.h>
+  2
+  3
+  4 int main(){
+  5         char string[50] = "This is a string\n"; // This string's last position end of string i.e. '\0' character added.
+  6
+  7         for(int i=0; i<50; i++){
+  8                 putchar(string[i]); //Output : This is a string
+  9         }
+ 10
+ 11
+ 12         return 0;
+ 13 }
+ ```
+
+ ```c
+  1 #include<stdio.h>
+  2
+  3
+  4 int main(){
+  5         char string[50] = "This is a string\n";
+  6
+  7         int i = 0;
+  8         while(string[i] != '\0'){
+  9                 putchar(string[i]);
+ 10                 i++;
+ 11         }
+ 12
+ 13
+ 14         return 0;
+ 15 }
+ ```
+
+ 
+
+
 <div style="text-align: center;">
     <button type="button" onclick="window.location.href='https://baponkar.github.io/Learning-C/Arithmetic-Expression/Arithmetic-Expression';" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
        Prev
