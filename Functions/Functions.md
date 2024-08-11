@@ -5,7 +5,27 @@
 
 # 12. Functions 
 
-Please Wait...
+* Write a function whichh return addition of two integer
+```c
+#include<stdio.h>
+
+//Declairing the function otherwise the main function not finding the function.
+int add(int a, int b);
+
+int main(){
+    int a = 5, b = 7, res;
+
+    res = add(a,b);
+
+    printf("The result of add(5, 7) = %d\n", res); // Output : The result of add(5, 7) = 12
+    return 0;
+}
+
+//Defining the function
+int add(int a, int b){
+    return a + b;
+}
+```
 
 
 <div style="text-align: center;">

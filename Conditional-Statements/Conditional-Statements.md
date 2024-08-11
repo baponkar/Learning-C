@@ -90,6 +90,10 @@ int main(){
 }
 ```
 
+## Logical Operators and Expressions
+
+![Logical Expression](./image/logical_expression.png)
+
 We also use logical expression in ' for ' and ' while ' loop 
 See details in chapter [Loops](https://baponkar.github.io/Learning-C/Loops/Loops)
 * Write a C program which find the biggest and smallest number among 35, 78,45, 203, 2, 11, 56, 13, 91, 10.
@@ -159,7 +163,87 @@ int main(){
 }
 ```
 
+* Switch statement
 
+```c
+switch(expression){
+    case constant_1:
+        s_11;
+        s_12;
+        .
+        .
+        break;
+    case constant_2:
+        s_21;
+        s_22;
+        .
+        .
+        break;
+    ......
+    case constant_n:
+        s_n1;
+        s_n2;
+        .
+        .
+        break;
+    case default:
+        s_d1;
+        s_d2;
+        .
+        .
+        break;
+}
+
+```
+
+* Solve $ax^2+bx+c = 0$ .
+
+```c
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    int a,b,c;
+    float x1, x2;
+    printf("Enter the values of a, b, c with space\n");
+    scanf("%d %d %d", &a, &b, &c);
+    
+    float z = b*b - 4*a*c;
+
+    if(z > 0){//When z is positive
+        //Roots are real
+        x1 = (-b + sqrt(z))/(2*a);
+        x2 = (-b - sqrt(z))/(2*a);
+        printf("The solution : x1 = %f, x2 = %f\n", x1, x2);
+
+    }else if(z < 0){ //when z is negative
+        //roots are complex
+        float real = -b/a;
+        float comp = sqrt(-z);
+        printf("The solution: x1 = %f + %fi, x2 = %f - %fi\n", real,comp, real, -comp);
+
+    }else{ //When z==0
+        //both roots are equal and real
+        x1 = -b/a;
+        x2 = -b/a;
+        printf("The solution: x1 = %f, x2 = %f\n", x1, x2);
+        printf("Where i = sqrt(-1)\n");
+    }
+
+
+    return 0;
+}
+
+```
+
+## Output
+
+```bash
+Enter the values of a, b, c with space
+5 7 8
+The solution: x1 = -1.000000 + 10.535654i, x2 = -1.000000 - -10.535654i
+Where i = sqrt(-1)
+```
 
 
 

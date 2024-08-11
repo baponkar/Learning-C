@@ -4,7 +4,33 @@
 
 # 18. Recursion
 
-Please Wait...
+Suppose We want to find the factorial of a number n is n! = n*(n-1)*(n-2)....4*3*2*1.
+We create a reursive function to get the value of a factorial.
+
+```c
+#include<stdio.h>
+
+int fact(int n);
+int main(){
+
+    int res = fact(5);
+    printf("5! = %d\n", res);
+    return 0;
+}
+
+int fact(int n){
+    int res;
+    if(n > 1){
+        res = n*fact(n-1);
+    }else{
+        return 1;
+    }
+    return res;
+}
+
+```
+
+
 
 
 <div style="text-align: center;">
